@@ -62,7 +62,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '@ybl')
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gtxprime:gtxprime@cluster0.iknrzio.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb://demo9413:demo9413@Cluster0/?ssl=true&replicaSet=atlas-hzvxec-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://gtxprime:gtxprime@cluster0.iknrzio.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
