@@ -95,7 +95,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CipherGround')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/XCipher')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.megtxprime/')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/megtxprime')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/')
 OWNERID = int(os.environ.get('OWNERID', '1165094443'))  # Replace with the actual admin ID
 
