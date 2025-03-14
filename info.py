@@ -17,10 +17,10 @@ def is_enabled(value, default):
 # ============================
 # Bot Information Configuration
 # ============================
-SESSION = environ.get('SESSION', 'Deendayal_search')
+SESSION = environ.get('SESSION', 'Black Sovereign')
 API_ID = int(environ.get('API_ID', '5892963'))
 API_HASH = environ.get('API_HASH', '8eef25dc6c4cbf2f6fafb9dd4ec6d7b5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "2071719854:")
+BOT_TOKEN = environ.get('BOT_TOKEN', "2085742606:AAG_Y7vgnYP6CrPcBHL3mr9KTGv5OfN1u7Y")
 
 # ============================
 # Bot Settings Configuration
@@ -49,7 +49,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001997565102')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '0')  # Request channel id (make sure bot is admin)
 AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1002025820558').split()]
-MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002025820558, -1002483951948').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
+MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002025820558').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
 
 
 # ============================
@@ -61,10 +61,10 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '@ybl')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://:@.")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://:@.")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gtxprime:gtxprime@cluster0.nnlzp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://gtxprime:gtxprime@cluster0.nnlzp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_files')
 
 # ============================
 # Movie Notification & Update Settings
@@ -95,7 +95,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CipherGround')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/XCipher')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/megtxprime')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/gtxprime')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/')
 OWNERID = int(os.environ.get('OWNERID', '1165094443'))  # Replace with the actual admin ID
 
@@ -114,7 +114,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Share & Support Us ♥️')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/https://t.me/CipherGround')  # Support group link (make sure bot is admin)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/CipherGround')  # Support group link (make sure bot is admin)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
