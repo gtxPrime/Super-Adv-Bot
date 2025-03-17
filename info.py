@@ -18,9 +18,9 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'Black Sovereign')
-API_ID = int(environ.get('API_ID', '5892963'))
-API_HASH = environ.get('API_HASH', '8eef25dc6c4cbf2f6fafb9dd4ec6d7b5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "2085742606:AAG_Y7vgnYP6CrPcBHL3mr9KTGv5OfN1u7Y")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # ============================
 # Bot Settings Configuration
