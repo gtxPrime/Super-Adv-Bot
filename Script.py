@@ -271,7 +271,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-CAPTION = """
+    CAPTION = """
     📂 File Name : {file_name}
     🔘 File Size : {file_size}   
     ╭─── • ❰ @gtxPrime ❱ • ────➤  
@@ -279,7 +279,7 @@ CAPTION = """
     ┣ ▫️ @CipherGround  
     ╰─────── • ◆ • ───────➤"""
 
-IMDB_TEMPLATE_TXT = """
+    IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
@@ -290,7 +290,7 @@ IMDB_TEMPLATE_TXT = """
 Requested by : {message.from_user.mention}</b>"""
     
 
-RESTART_TXT = """
+    RESTART_TXT = """
 <b>{} Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
@@ -299,15 +299,15 @@ RESTART_TXT = """
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code> v4.8 [ Sᴛᴀʙʟᴇ ]</code>
 </b>"""
 
-LOGO = """𝙱𝙾𝚃 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈...."""
+   LOGO = """𝙱𝙾𝚃 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈...."""
 
     #PLANS
 
-PAGE_TXT = """ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ꜱᴏ ᴄᴜʀɪᴏᴜꜱ ⁉️"""
+   PAGE_TXT = """ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ꜱᴏ ᴄᴜʀɪᴏᴜꜱ ⁉️"""
 
-PURCHASE_TXT = """ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ."""
+   PURCHASE_TXT = """ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ."""
 
-PREMIUM_TEXT = """<b>👋 ʜᴇʏ {},
+   PREMIUM_TEXT = """<b>👋 ʜᴇʏ {},
 
 🎁 <u>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs</u> :
 
