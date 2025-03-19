@@ -74,7 +74,7 @@ Nᴀᴍᴇ - {}
 ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇǫᴜᴇꜱᴛ ᴀɢᴀɪɴ."""
 
-    CUDNT_FND = """<b>𝑆𝑝𝑒𝑙𝑙𝑖𝑛𝑔 𝑀𝑖𝑠𝑡𝑎𝑘𝑒 𝐵𝑟𝑜 ‼️\n𝐷𝑜𝑛'𝑡 𝑊𝑜𝑟𝑟𝑦 😊 𝐶ℎ𝑜𝑜𝑠𝑒 𝑇ℎ𝑒 𝐶𝑜𝑟𝑟𝑒𝑐𝑡 𝑂𝑛𝑒 𝐵𝑒𝑙𝑜𝑤 👇</b>"""
+    CUDNT_FND = """<b>𝑆𝑝𝑒𝑙𝑙𝑖𝑛𝑔 𝑀𝑖𝑠𝑡𝑎𝑘𝑒 𝐵𝑟𝑜 ‼️\n𝐷𝑜𝑛'𝑡 𝑊𝑜𝑟𝑟𝑦 😊 𝐶ℎ𝑜𝑜𝑠𝑒 𝑇ℎ𝑒 𝐶𝑜𝑟𝑟𝑒𝑐𝑡 𝑂𝑛𝑒 𝐵𝑒𝑙𝑜𝑤 👇</blockquote></b>"""
 
     I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
 
@@ -100,7 +100,7 @@ Nᴀᴍᴇ - {}
 
 3) ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ ᴅᴀᴛᴀʙᴀsᴇ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs</b>"""
 
-    MVE_NT_FND = """<b>𝑻𝒉𝒊𝒔 𝑴𝒐𝒗𝒊𝒆 𝑵𝒐𝒕 𝑭𝒐𝒖𝒏𝒅 𝑰𝒏 𝑴𝒚 𝑫𝒂𝒕𝒂𝑩𝒂𝒔𝒆...😌</b>"""
+    MVE_NT_FND = """<b>𝑻𝒉𝒊𝒔 𝑴𝒐𝒗𝒊𝒆 𝑵𝒐𝒕 𝑭𝒐𝒖𝒏𝒅 𝑰𝒏 𝑴𝒚 𝑫𝒂𝒕𝒂𝑩𝒂𝒔𝒆...😌</blockquote></b>"""
     
 
     TOP_ALRT_MSG = """ꜱᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ ǫᴜᴇʀʏ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
@@ -272,14 +272,14 @@ Nᴀᴍᴇ : {}
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
 CAPTION = """
-📂 File Name : {file_name}
-🔘 File Size : {file_size}   
-╭─── • ❰ @gtxPrime ❱ • ────➤  
-┣ ▫️ @XCipher 
-┣ ▫️ @CipherGround  
-╰─────── • ◆ • ───────➤"""
+    📂 File Name : {file_name}
+    🔘 File Size : {file_size}   
+    ╭─── • ❰ @gtxPrime ❱ • ────➤  
+    ┣ ▫️ @XCipher 
+    ┣ ▫️ @CipherGround  
+    ╰─────── • ◆ • ───────➤"""
 
-    IMDB_TEMPLATE_TXT = """
+IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
@@ -290,7 +290,7 @@ CAPTION = """
 Requested by : {message.from_user.mention}</b>"""
     
 
-    RESTART_TXT = """
+RESTART_TXT = """
 <b>{} Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
@@ -299,15 +299,15 @@ Requested by : {message.from_user.mention}</b>"""
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code> v4.8 [ Sᴛᴀʙʟᴇ ]</code>
 </b>"""
 
-    LOGO = """𝙱𝙾𝚃 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈...."""
+LOGO = """𝙱𝙾𝚃 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈...."""
 
     #PLANS
 
-    PAGE_TXT = """ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ꜱᴏ ᴄᴜʀɪᴏᴜꜱ ⁉️"""
+PAGE_TXT = """ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ꜱᴏ ᴄᴜʀɪᴏᴜꜱ ⁉️"""
 
-    PURCHASE_TXT = """ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ."""
+PURCHASE_TXT = """ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ."""
 
-    PREMIUM_TEXT = """<b>👋 ʜᴇʏ {},
+PREMIUM_TEXT = """<b>👋 ʜᴇʏ {},
 
 🎁 <u>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs</u> :
 
@@ -323,7 +323,7 @@ Requested by : {message.from_user.mention}</b>"""
 
 ‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"""
 
-    CPREMIUM_TEXT = """<b>👋 ʜᴇʏ {},
+CPREMIUM_TEXT = """<b>👋 ʜᴇʏ {},
     
 🎁 <u>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs</u> :
 
@@ -340,7 +340,7 @@ Requested by : {message.from_user.mention}</b>"""
 
 ‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"""
 
-    PLAN_TXT = """<b>👋 ʜᴇʏ {},
+PLAN_TXT = """<b>👋 ʜᴇʏ {},
     
 🎁 <u>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs</u> :
 
@@ -420,7 +420,7 @@ Requested by : {message.from_user.mention}</b>"""
 ⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
 💸 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴅᴀʏꜱ ʏᴏᴜ ᴄʜᴏᴏꜱᴇ
 
-🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/dreamcinezone'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
+🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/gtxrprime'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
     
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
 
@@ -472,7 +472,7 @@ Requested by : {message.from_user.mention}</b>"""
 
     SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
 
- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/gtxprime/Super-Adv-Bot</a>\n """
+ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com//>_Botz</a>\n """
 
     EXTRAF_TXT =""" <b> ʜᴇʀᴇ ɪꜱ ᴍʏ ᴇxᴛʀᴀ ꜰᴇᴀᴛᴜʀᴇꜱ </b>"""
 
