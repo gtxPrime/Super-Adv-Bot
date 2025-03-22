@@ -66,7 +66,7 @@ async def remove_junkuser__db(bot, message):
     await bot.send_message(message.chat.id, f"Completed:\nCompleted in {time_taken} seconds.\n\nTotal Users {total_users}\nCompleted: {done} / {total_users}\nBlocked: {blocked}\nDeleted: {deleted}")
 
 
-@Client.on_message(filters.command("grp_broadcast") & filters.user(ADMINS) & filters.reply)
+@Client.on_message(filters.command("group_broadcast") & filters.user(ADMINS) & filters.reply)
 async def broadcast_group(bot, message):
     groups = await db.get_all_chats()
     if not groups:
@@ -195,13 +195,13 @@ async def clear_junk(user_id, message):
     except Exception as e:
         return False, "Error"
 
-async def broadcast_messages(user_id, message, reply_markup=None):
+async def broadcast_messages(user_id, message):
     try:
-        await message.copy(chat_id=user_id,reply_markup=reply_markup)
+        await message.copy(chat_id=user_id)
         return True, "Success"
     except FloodWait as e:
         await asyncio.sleep(e.value)
-        return await broadcast_messages(user_id, message,reply_markup=reply_markup)
+        return await broadcast_messages(user_id, message)
     except InputUserDeactivated:
         await db.delete_user(int(user_id))
         logging.info(f"{user_id}-Removed from Database, since deleted account.")
